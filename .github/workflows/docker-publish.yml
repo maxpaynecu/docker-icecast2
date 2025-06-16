@@ -44,4 +44,3 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
             ${{ env.GITHUB_PACKAGES }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.QUAY_IO }}/${{ secrets.QUAY_USERNAME }}/${{ env.IMAGE_NAME }}:latest
