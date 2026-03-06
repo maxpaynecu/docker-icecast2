@@ -43,4 +43,3 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.GITHUB_PACKAGES }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:latest
