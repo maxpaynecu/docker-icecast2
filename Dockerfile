@@ -1,4 +1,4 @@
-FROM ubuntu:noble
+FROM ubuntu:resolute
 
 LABEL maintainer="Leonel Hernandez <maxpaynecu@gmail.com>" \
       github="https://github.com/maxpaynecu/docker-icecast2"
